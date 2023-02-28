@@ -42,10 +42,25 @@ To get started, find the `myPigLatinCodeHere` function, and write your code. Eve
 
 Oday ouyay eakspay igpay atinlay? If you are scratching your head at that statement, we at LEARN Academy have you covered. Our development team has been tasked with creating a Pig Latin translator application. This app will take regular English words and covert them to Pig Latin. With this application you will eakspay igpay atinlay uentlyflay in no time!
 
+
+**Big Picture**
+    Have the current code that has been given to us. For each story, take turns driving and navigating. Each person working on each position for 2 stories. Josh 1 & 3 driving, Leo 2 & 4 Driving. Stretch goals will be addressed for positions after MVP of the functioning logic is attained. 
+        - Work on demo questions and decided at the end of the project work who will cover which ones for the class demo.
+        - Work on demo questions AFTER MVP then move on to stretch goals.
+        - Based on time, revisit demo questions again before class demo
+    - Remember to keeep the stretch goals in mind from the start of the project. Many of them can be addressed as the code/logic is developed.
+
+
+
 **Story 1: In order to see English words converted to Pig Latin, as the user of the application, I need to see words beginning with a vowel translated to add "way" the end.**
 
 **Branch:** vowel-functionality
 
+**Input** = an english word that starts with a vowel
+
+**Output** = input word "" + "way" = ""way 
+
+**psuedo:** if the vowlesArray .inculdes the [0] index  of eachWord then return eachWord + "way" 
 **Acceptance Criteria**
 
 - Can type any word that begins with a vowel in the text input (e.g. apple)
@@ -55,6 +70,11 @@ Oday ouyay eakspay igpay atinlay? If you are scratching your head at that statem
 **Story 2: In order to see English words converted to Pig Latin, as the user of the application, I need to see words that have "qu" in the first syllable translated by moving all the consonant and the "u" to the end and add "ay".**
 
 **Branch:** qu-functionality
+
+**Input** =
+
+**Output** =    
+
 
 **Acceptance Criteria**
 
