@@ -71,9 +71,15 @@ Oday ouyay eakspay igpay atinlay? If you are scratching your head at that statem
 
 **Branch:** qu-functionality
 
-**Input** =
+**Input** = an english word that takes 'qu" 
 
-**Output** =    
+**Output** =  returns the word adding 'qu' + 'ay' at the end od the word
+
+**Pseudo code**
+- in a condtional statement if 'q' and 'u' are in the first two(2) indexes 
+    - eacWord .slice() at the second(2) index + "ay"
+- and in another condtional statement if 'q' and 'u' are in the second(2) and third(3) indexes
+    - eacWord .slice() at the third(3) index then + eachWord . slice() at the third(3) index  + "ay"
 
 
 **Acceptance Criteria**
